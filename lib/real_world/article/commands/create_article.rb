@@ -3,6 +3,7 @@
 require 'colmena/command'
 require 'real_world/article/domain'
 
+
 module RealWorld
   module Article
     module Commands

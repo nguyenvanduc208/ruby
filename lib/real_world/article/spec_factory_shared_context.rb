@@ -12,6 +12,7 @@ RSpec.shared_context 'article factory' do
   let(:favorites_count) { 0 }
   let(:author_id) { SecureRandom.uuid }
 
+  
   let(:some_article) do
     {
       id: id,

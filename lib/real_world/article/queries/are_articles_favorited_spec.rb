@@ -13,6 +13,7 @@ describe RealWorld::Article::Queries::AreArticlesFavorited do
   let(:user_id) { SecureRandom.uuid }
   subject { query.call(article_ids: [id], user_id: user_id) }
 
+  
   before do
     repository.create(some_article)
     repository.favorite(some_article, user_id)

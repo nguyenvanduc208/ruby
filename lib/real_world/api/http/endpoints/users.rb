@@ -5,6 +5,8 @@ require 'real_world/api/http/mappers'
 require 'real_world/api/http/mappers/json'
 require 'real_world/api/http/mappers/auth_token'
 
+
+
 module RealWorld
   module Api
     module Http

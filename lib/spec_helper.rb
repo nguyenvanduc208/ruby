@@ -16,6 +16,7 @@ RSpec::Matchers.define :succeed do |data:, events: []|
     expect(actual.fetch(:errors)).to be_empty
   end
 
+  
   failure_message do |actual|
     "actual: #{actual}\nexpected: #{data.inspect}\nevents: #{events}\n"
   end

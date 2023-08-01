@@ -3,6 +3,7 @@ require 'bundler/setup'
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
+
 # SQL connection
 # We use in-memory SQLite, but we could use a different engine like PostgreSQL
 # without affecting other code

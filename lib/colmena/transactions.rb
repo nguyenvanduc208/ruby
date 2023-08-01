@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+
+
 module Colmena
   module Transactions
     class Configuration

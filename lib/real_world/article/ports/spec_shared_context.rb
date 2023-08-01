@@ -18,3 +18,4 @@ RSpec.shared_context 'article ports' do
     }
   end
 end
+

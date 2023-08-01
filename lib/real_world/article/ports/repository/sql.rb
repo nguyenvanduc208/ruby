@@ -5,6 +5,8 @@ require 'json'
 require 'real_world/sequel'
 require 'real_world/support/hash'
 
+
+
 module RealWorld
   module Article
     module Ports

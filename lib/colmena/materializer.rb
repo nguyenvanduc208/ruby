@@ -2,6 +2,7 @@
 
 require 'colmena/port_injection'
 
+
 module Colmena
   class Materializer
     include PortInjection

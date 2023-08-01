@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+
 module Colmena
   module Callable
     PARAM_FORMAT = ->(param_def) do

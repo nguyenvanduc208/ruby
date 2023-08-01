@@ -8,6 +8,7 @@ describe RealWorld::Article::Commands::CreateArticle do
   include_context 'article ports'
   include_context 'article factory'
 
+  
   let(:command) { described_class.new(ports) }
   subject do
     command.call(

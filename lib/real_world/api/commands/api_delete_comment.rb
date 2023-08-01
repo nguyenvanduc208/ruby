@@ -2,6 +2,8 @@
 
 require 'colmena/command'
 
+
+
 module RealWorld
   module Api
     module Commands

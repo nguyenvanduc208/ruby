@@ -4,6 +4,7 @@ require 'securerandom'
 require 'colmena/domain'
 require 'real_world/article/domain/validation'
 
+
 module RealWorld
   module Article
     module Domain

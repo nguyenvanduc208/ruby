@@ -4,6 +4,8 @@ require 'colmena/response'
 require 'colmena/error'
 require 'colmena/event'
 
+
+
 module Colmena
   module Domain
     include Colmena::Response

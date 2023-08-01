@@ -22,6 +22,7 @@ RSpec.shared_examples 'an article repository' do
     end
   end
 
+  
   context 'when there is an article' do
     before { subject.create(some_article) }
 

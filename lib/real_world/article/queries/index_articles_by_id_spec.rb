@@ -28,3 +28,5 @@ describe RealWorld::Article::Queries::IndexArticlesById do
     )
   end
 end
+
+

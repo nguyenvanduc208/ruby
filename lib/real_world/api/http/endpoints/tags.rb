@@ -4,6 +4,8 @@ require 'real_world/api/http/endpoint'
 require 'real_world/api/http/mappers'
 require 'real_world/api/http/mappers/query_param'
 
+
+
 module RealWorld
   module Api
     module Http

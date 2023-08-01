@@ -20,3 +20,4 @@ describe RealWorld::Article::Queries::ReadArticleBySlug do
     it { is_expected.to succeed(data: include(some_article)) }
   end
 end
+

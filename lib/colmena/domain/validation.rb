@@ -2,6 +2,8 @@
 
 require 'colmena/response'
 
+
+
 module Colmena
   module Domain
     module Validation

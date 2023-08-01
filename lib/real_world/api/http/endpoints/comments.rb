@@ -7,6 +7,8 @@ require 'real_world/api/http/mappers/auth_token'
 require 'real_world/api/http/mappers/route'
 require 'real_world/api/http/response'
 
+
+
 module RealWorld
   module Api
     module Http

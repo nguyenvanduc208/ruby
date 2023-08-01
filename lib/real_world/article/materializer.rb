@@ -10,6 +10,7 @@ module RealWorld
         port(:repository).transaction { yield }
       end
 
+      
       def map(event)
         article = if event.fetch(:type) == :article_created
                     {}

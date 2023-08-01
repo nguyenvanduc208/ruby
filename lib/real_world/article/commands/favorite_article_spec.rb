@@ -12,6 +12,7 @@ describe RealWorld::Article::Commands::FavoriteArticle do
   let(:command) { described_class.new(ports) }
   let(:user_id) { SecureRandom.uuid }
 
+  
   subject do
     command.call(
       id: id,

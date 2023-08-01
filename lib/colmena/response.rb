@@ -2,6 +2,8 @@
 
 require 'colmena/error'
 
+
+
 module Colmena
   # Responses in Colmena have a predictable data structure.
   # As a convention, data is usually nil when there are errors.

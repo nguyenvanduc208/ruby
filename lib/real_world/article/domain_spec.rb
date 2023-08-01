@@ -10,6 +10,7 @@ describe RealWorld::Article::Domain do
   let(:author_id) { SecureRandom.uuid }
   let(:user_id) { SecureRandom.uuid }
 
+  
   let(:article) do
     described_class.create(
       title,

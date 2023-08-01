@@ -32,3 +32,5 @@ describe RealWorld::Article::Queries::ListArticles do
     )
   end
 end
+
+

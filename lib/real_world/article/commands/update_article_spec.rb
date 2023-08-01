@@ -19,6 +19,8 @@ describe RealWorld::Article::Commands::UpdateArticle do
     )
   end
 
+  
+
   context 'when the article does not exist' do
     it { is_expected.to fail_with_errors(:article_does_not_exist) }
   end

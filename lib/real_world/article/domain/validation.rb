@@ -4,6 +4,7 @@ require 'dry-validation'
 require 'colmena/domain/validation'
 require 'real_world/uuid'
 
+
 module RealWorld
   module Article
     module Domain
