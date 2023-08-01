@@ -1,0 +1,12 @@
+version: '3'
+services:
+  api:
+    environment:
+      - API_AUTH_TOKEN_SECRET=dont_tell_anyone
+    volumes:
+      - ./config:/app/config
+      - ./lib:/app/lib
+      - ./bin:/app/bin
+      - ./rake:/app/rake
+      - .rubocop.yml:/app/.rubocop.yml
+
